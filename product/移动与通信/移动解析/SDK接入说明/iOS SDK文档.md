@@ -6,8 +6,8 @@ HTTPDNS 的主要功能是为了有效的避免由于运营商传统 LocalDns �
 
 | 名称       | 适用说明           |
 | ------------- |-------------|
-| MSDKDns.framework | 适用 “Build Setting->C++ Language Dialect” 配置为 **“GNU++98”**，“Build Setting->C++ Standard Library” 为 **“libstdc++(GNU C++ standard library)”** 的工程。 |
-| MSDKDns_C11.framework | 适用于该两项配置分别为 **“GNU++11”** 和 **“libc++(LLVM C++ standard library with C++11 support)”** 的工程。 |
+| MSDKDns.xcframework | 适用 “Build Setting->C++ Language Dialect” 配置为 **“GNU++98”**，“Build Setting->C++ Standard Library” 为 **“libstdc++(GNU C++ standard library)”** 的工程。 |
+| MSDKDns_C11.xcframework | 适用于该两项配置分别为 **“GNU++11”** 和 **“libc++(LLVM C++ standard library with C++11 support)”** 的工程。 |
 
 ## 3. SDK 集成
 HTTPDNS 提供两种集成方式供 iOS 开发者选择：

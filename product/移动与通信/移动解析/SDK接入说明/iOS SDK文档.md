@@ -494,7 +494,7 @@ self.task = [session dataTaskWithRequest:request];
 
  @param noHijackDomainArray 不需要拦截的域名列表
  */
- - (void) WGSetNoHijackDomainArray:(NSArray *)noHijackDomainArray;
+ - (void) WGSetNoHijackDomainArray:(NSArray *)noHijackDomainArray; 
 ```
 - 如设置了需要拦截的域名列表，则仅会拦截处理该域名列表中的 HTTPS 请求，其它域名不做处理。
 - 如设置了不需要拦截的域名列表，则不会拦截处理该域名列表中的 HTTPS 请求。
